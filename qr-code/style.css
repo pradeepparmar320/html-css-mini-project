@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-  width:350px;
-  height: 650px;
+  width:400px;
+  height: 600px;
   background-color: hsl(0, 0%, 100%);
   margin:6% auto;
   border-radius:2rem;
@@ -23,7 +23,7 @@ body {
 }
 
 .info {
-  padding-left: 20px;
+  padding-left:30px;
   margin-top:25px;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 .p-1 {
-    font-size:1.8rem; 
+    font-size:1.5rem; 
     font-weight:bold; 
 }
 .p-2 {
@@ -48,4 +48,5 @@ p {
 .span {
   white-space:nowrap;
   margin-left:6rem;
+  text-align:center;
 }
