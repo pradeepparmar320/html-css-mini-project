@@ -9,13 +9,17 @@
 
 body {
   background-color:hsl(220, 36%, 90%);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 }
 
 .container {
   width:400px;
-  height: 600px;
+  /* height: 600px; */
   background-color: hsl(0, 0%, 100%);
-  margin:6% auto;
+  margin:0 auto;
   border-radius:2rem;
   padding:1rem;
   box-shadow:3px 3px 30px rgba(0,0,0,0.4);
@@ -25,6 +29,7 @@ body {
 .info {
   padding-left:30px;
   margin-top:25px;
+  text-align:center;
 }
 
 img {
@@ -38,15 +43,10 @@ p {
 }
 
 .p-1 {
-    font-size:1.5rem; 
-    font-weight:bold; 
+    font-size:1.8rem; 
+    font-weight:700; 
 }
 .p-2 {
   color:gray;
   font-size:1.2rem;
-}
-.span {
-  white-space:nowrap;
-  margin-left:6rem;
-  text-align:center;
 }
