@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#db9f04;
+  color:#edebe8;
+}
+.container {
+  width:400px;
+  height:700px;
+  display:flex;
+  flex-direction:column;
+  border:5px solid #edebe8;
+  border-radius:2rem;
+  padding:2rem 2rem;
+  padding-top:8rem;
+  box-shadow:10px 10px 60px 10px rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+.main {
+  font-size:2rem;
+ 
+}
+
+.login {
+  text-align:center;
+  font-size:1.2rem;
+  margin-bottom:3rem;
+ 
+}
+
+input {
+  margin-bottom:2rem;
+  padding:0.5rem 0;
+  background-color:#db9f04;
+  color:#edebe8;
+  border:none;
+  border-bottom:2px solid #edebe8;
+  font-size:1.2rem;
+}
+
+input::placeholder {
+  color:#edebe8;
+  font-size:1.2rem;
+}
+
+input:focus {
+  outline:none;
+}
+
+.reset,
+.create-account {
+ 
+  color:black;
+  margin-bottom:2rem;
+  font-size:1.2rem;
+  text-decoration:underline;
+}
+
+button {
+  font-size:1.5rem;
+  padding:10px;
+  border-radius:2rem;
+  border:none;
+  background-color:#000;
+  color:#edebe8;
+  margin-bottom:5rem;
+  transition:background-color 0.3s,color 0.3s;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color:#edebe8;
+  color:#000;
+}
+
+.create-account {
+  transition:transform 0.3s;
+  margin:0px auto;
+}
+
+.create-account:hover {
+  transform:scale(110%);
+}
+
+/* SIGN UP */
+
+
+.h1 {
+  margin-bottom:4rem;
+}
+
+.create-button {
+  margin-top:2rem;
+}
+
+.login-link {
+  margin-bottom:5rem;
+}
+
+
+
