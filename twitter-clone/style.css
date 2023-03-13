@@ -1,0 +1,89 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  --TWITTER-COLOR: #50b7f5;
+  --TWITTER-BACKGROUND:#e6ecf0;
+}
+
+.sidebar-option {
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+}
+
+.sidebar-option .material-icons,
+ .fa-twitter {
+  padding:20px;
+}
+
+.sidebar-option h2 {
+  font-weight:800;
+  font-size:1.25rem;
+  margin-right:1.25rem;
+}
+
+.sidebar-option:hover {
+  background-color:var(--TWITTER-BACKGROUND);
+  color:var(--TWITTER-COLOR);
+  border-radius:2rem;
+  transition:color 100ms ease-out;
+}
+
+.sidebar-option.active {
+color:var(--TWITTER-COLOR);
+}
+
+.sidebar-tweet {
+  width:100%;
+  background-color:var(--TWITTER-COLOR);
+  border:none;
+  color:white;
+  font-weight:900;
+  border-radius:2rem;
+  height:3rem;
+  margin-top:1.25rem;
+  margin-bottom:1rem;
+  
+}
+
+body {
+  display:flex;
+  height:100vh;
+  max-width:1300px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0 10px;
+}
+
+.sidebar {
+  border:1px solid var(--TWITTER-BACKGROUND);
+  flex:0.2;
+  max-width: 250px;
+  margin-top:1.25rem;
+  padding-left:1.25rem;
+  padding-right:1.25rem;
+}
+
+.fa-twitter {
+  color:var(--TWITTER-COLOR);
+  font-size:2rem;
+}
+
+/* feed  */
+.feed {
+  flex:0.5;
+  border-right:1px solid var(--TWITTER-BACKGROUND);
+  min-width:fit-content;
+  overflow-y:scroll;
+}
+
+.feed-header {
+  position:sticky;
+  top:0;
+  background-color:var(--TWITTER-BACKGROUND);
+  padding:15px 20px;
+}

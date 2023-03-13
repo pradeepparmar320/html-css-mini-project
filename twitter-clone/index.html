@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twitter clone</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- sidebar starts -->
+  <div class="sidebar">
+    <i class="fab fa-twitter"></i>
+    <div class="sidebar-option active">
+      <span class="material-icons">
+        home
+        </span>
+      <h2>Home</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        search
+        </span>
+      <h2>Explore</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        notifications_none
+        </span>
+      <h2>Notifications</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        mail_outline
+        </span>
+      <h2>Message</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        turned_in_not
+        </span>
+      <h2>Bookmark</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        list_alt
+        </span>
+      <h2>list</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        perm_identity
+        </span>
+      <h2>profile</h2>
+    </div>
+
+    <div class="sidebar-option">
+      <span class="material-icons">
+        more_horiz
+        </span>
+      <h2>More</h2>
+    </div>
+
+    <button class="sidebar-tweet">
+      Tweet
+    </button>
+  </div>
+  <!-- sidebar ends -->
+   
+  <!-- feed starts -->
+  <div class="feed">
+      <div class="feed-header">
+        <h2>Home</h2>
+      </div>
+
+      <!-- tweet box starts -->
+      <div class="tweetbox">
+        <form>
+          <div class="tweetbox-input">
+            <img src="images/avatar.avif" alt="">
+          
+
+            <input type="text" placeholder="What's happening?">
+          </div>
+          <button class="tweetbox-tweet-btn">tweet</button>
+        </form>
+      </div>
+      <!-- tweet box ends -->
+
+  </div>
+  <!-- feed ends -->
+</body>
+</html>
